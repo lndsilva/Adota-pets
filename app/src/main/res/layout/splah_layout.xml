@@ -17,6 +17,8 @@
         android:src="@drawable/logobg" />
 
     <TextView
+        android:shadowColor="#FFF"
+        android:shadowRadius="10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"

@@ -35,6 +35,7 @@
             app:startIconDrawable="@drawable/baseline_pets">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/righteousregular"
@@ -60,6 +61,7 @@
             app:startIconDrawable="@drawable/baseline_lock">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtSenha"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/righteousregular"
@@ -71,6 +73,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
+            android:id="@+id/lblCadastrarUsuario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
@@ -85,6 +88,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/btnEntrar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="3dp"
@@ -92,6 +96,7 @@
                 android:text="Entrar" />
 
             <Button
+                android:id="@+id/btnSair"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="3dp"

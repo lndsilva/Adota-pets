@@ -223,7 +223,7 @@
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/idMenuParceria"
+            android:id="@+id/idMenuParceiros"
             android:layout_width="180dp"
             android:layout_height="200dp"
             android:layout_margin="5dp"

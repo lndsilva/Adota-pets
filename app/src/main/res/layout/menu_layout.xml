@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/fundo"
-
     tools:context=".MenuActivity">
 
 

@@ -9,9 +9,7 @@ import android.view.View;
 import com.google.android.material.card.MaterialCardView;
 
 public class MenuActivity extends AppCompatActivity implements View.OnClickListener {
-    MaterialCardView idMenuPets, idMenuAlimentos,
-            idMenuDoacoes, idMenuServicos,
-            idMenuLocalizar, idMenuParceiros;
+    MaterialCardView idMenuPets, idMenuAlimentos, idMenuDoacoes, idMenuServicos, idMenuLocalizar, idMenuParceiros;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
